@@ -6,10 +6,10 @@ class InvalidAge extends Exception{
 public class AgeForVote {
     static void valid(int age) throws InvalidAge{
         if(age<18) {
-            throw new InvalidAge("age is not valid to vote");
+            throw new InvalidAge("not Eligble for vote");
         }
             else {
-                System.out.println("welcome to vote");
+                System.out.println("Eligble for vote");
         }
         }
         public static void main(String[] args){
